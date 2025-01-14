@@ -1,0 +1,99 @@
+.fira-sans-regular {
+    font-family: "Fira Sans", serif;
+
+    font-style: normal;
+  }
+
+  /* Nav  */
+  nav{
+    display: flex;
+    justify-content: space-between;
+  
+  }
+  main{
+    max-width: 1480px;
+  }
+  nav h4{
+    margin-top: 31px;
+    margin-left: 160px;
+    font-size: 32px ;
+
+  }
+nav div {
+ align-items: center;
+}
+    /* section  */
+    .Banner{
+      display: flex;
+      background-color: #C6E4D6;
+      margin-top: 10px;
+      margin-left: 148px;
+      margin-right: 172px;
+      border-radius: 10px;
+    }
+    .banner-title {
+      padding-left:30px;
+      padding-top: 50px;
+      color: #0E0E0E;
+    }
+    .banner-heading{
+      color: #0E0E0E;
+      font-size:32px;
+      padding-left : 30px ;
+    }
+    .button-ti{
+      color: #FFFFFF;
+      background-color: #006A50;
+      margin-left: 30px;
+      margin-top: 20px;
+
+    }
+    /* section2 */
+    .vision{
+      margin-left: 60px ;
+      font-weight: bold;
+      font-size: 40px;
+
+    }
+    .visionp{
+      margin-left: 60px;
+      font-size: 16px;
+      color: #006A50;
+    }
+    
+    /* section44 */
+    .skill-container{
+      display: flex;
+      gap: 10px;
+    
+
+    }
+    .skill-one{
+      padding: 20px;
+      background-color:#9abbf5;
+      box-shadow: cornsilk ;
+      border-radius: 20px;
+
+
+    }
+    .hobe-naki{
+    background-color:#5490F5;
+    border-style: none;
+    border-radius: 5px;
+    }
+    .skill-two{
+     background-color: #C6E4D6 ;
+     border-radius: 20px;
+     padding: 20px;
+    }
+    .skill-three{
+      background-color:#F7EBCF ;
+      border-radius: 20px;
+      padding: 20px;
+    }
+
+
+
+
+
+  
