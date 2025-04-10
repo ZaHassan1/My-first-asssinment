@@ -4,96 +4,182 @@
     font-style: normal;
   }
 
-  /* Nav  */
-  nav{
-    display: flex;
+  .nav{
+    display: flex ;
+    align-items: center;
     justify-content: space-between;
-  
+    max-width: 700px;
+    margin: auto;
   }
-  main{
-    max-width: 1480px;
-  }
-  nav h4{
-    margin-top: 31px;
-    margin-left: 160px;
-    font-size: 32px ;
-
-  }
-nav div {
- align-items: center;
-}
-    /* section  */
-    .Banner{
-      display: flex;
-      background-color: #C6E4D6;
-      margin-top: 10px;
-      margin-left: 148px;
-      margin-right: 172px;
-      border-radius: 10px;
-    }
-    .banner-title {
-      padding-left:30px;
-      padding-top: 50px;
-      color: #0E0E0E;
-    }
-    .banner-heading{
-      color: #0E0E0E;
-      font-size:32px;
-      padding-left : 30px ;
-    }
-    .button-ti{
-      color: #FFFFFF;
-      background-color: #006A50;
-      margin-left: 30px;
-      margin-top: 20px;
-
-    }
-    /* section2 */
-    .vision{
-      margin-left: 60px ;
-      font-weight: bold;
-      font-size: 40px;
-
-    }
-    .visionp{
-      margin-left: 60px;
-      font-size: 16px;
-      color: #006A50;
-    }
-    
-    /* section44 */
-    .skill-container{
-      display: flex;
-      gap: 10px;
-    
-
-    }
-    .skill-one{
-      padding: 20px;
-      background-color:#9abbf5;
-      box-shadow: cornsilk ;
-      border-radius: 20px;
-
-
-    }
-    .hobe-naki{
-    background-color:#5490F5;
-    border-style: none;
+  .button{
+    border: solid 1px green;
+    font-size: 8px;
+    padding: 4px;
+    background-color: none ;
     border-radius: 5px;
-    }
-    .skill-two{
-     background-color: #C6E4D6 ;
-     border-radius: 20px;
-     padding: 20px;
-    }
-    .skill-three{
-      background-color:#F7EBCF ;
-      border-radius: 20px;
-      padding: 20px;
-    }
+
+  }
+  .bangla{
+    font-weight: bold;
+  }
+  .section-one{
+    background-color: #C6E4D6 ;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    max-width: 800px;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+.hero{
+  width: 250px;
+  height: 250px;
+  padding: 10px;
+}
+.Explore{
+  background-color: green;
+  color: white;
+  border:none;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 8px
+  
+  
+}
+.section-two{
+  max-width: 800px;
+  margin: auto;
+  font-size: 10px;
+
+} 
+.card-one{
+  background-color:gainsboro;
+  padding: 5px;
+  border-radius: 5px;
+  
+}
+.card-img{
+  width: 40px;
+  margin-top: 10px;
+}
+.pillars{
+  display:flex;
+  gap: 5px;
+
+  
+}
+.section-tree{
+  max-width: 800px;
+  margin: auto;
+
+}
+.title{
+  font-size: 10px;
+  color: gray;
+}
+
+.digital{
+  background-color: #a4c3f7;
+  margin: 10px;
+  padding: 8px;
+  border-radius: 8px;
+}
+.digital-2{
+  background-color: #C6E4D6;
+  margin: 10px;
+  padding: 8px;
+  border-radius: 8px;
+}
+.digital-3{
+  background-color: #F7EBCF;
+  margin: 10px;
+  padding: 8px;
+  border-radius: 8px;
+}
+.IMG3{
+  width: 40px;
+}
+.button-4{
+  background-color: #5490F5;
+  color: white;
+  border:none;
+  padding: 6px;
+  border-radius: 5px;
+  font-size: 8px
+}
+.button-3{
+  background-color: #09A15C;
+  color: white;
+  border:none;
+  padding: 6px;
+  border-radius: 5px;
+  font-size: 8px
+}
+.button-2{
+  background-color: #FFC239;
+  color: white;
+  border:none;
+  padding: 6px;
+  border-radius: 5px;
+  font-size: 8px
+}
+.digital-one{
+  display: flex;
+}
+.qwes{
+  width: 15px;
+  position: absolute;
+  
+}
 
 
+.news{
+  background-color: rgb(249, 249, 243);
+  padding: 10px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  border-radius: 10px;
+  margin-top: 20px;
 
-
-
+}
+.newsatellite{
+  border-radius: 8px;
+  width: 200px;
+}
+.satalight{
+  width: 60px;
+}
+.Subscribe-one{
+  background-color:#C6E4D6 ;
+  border-radius: 10px;
+  padding: 10px;
+  margin-top: 20px;
+}
+  .Subscribe-four{
+  align-items: center;
+  text-align: center;
+  }
+  .bang2{
+    border-bottom: 1px solid black ;
+    padding: 20px;
+  }
+  /* donate */
+  .Taka{
+    background-color: #F7EBCF;
+    padding: 20px;
+    border: none;
+    border-radius: 8px;
+    margin-top: 10px;
+  }
+  .takas{
+    background-color: #C6E4D6;
+    padding: 20px;
+    border: none;
+    border-radius: 8px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
   
